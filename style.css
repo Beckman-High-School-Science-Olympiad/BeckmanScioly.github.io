@@ -167,7 +167,7 @@ button:hover {
     position: sticky;
     top: 50%;
     left: 50%;
-    transform: translate(-22%, -500%);
+    transform: translate(-22%, -600%);/* 500*/
     background-color: rgba(0, 0, 0, 0.726);
     padding: 40px; /* Increased padding */
     color: white;
@@ -182,7 +182,7 @@ button:hover {
     position: sticky;
     top: 50%;
     left: 50%;
-    transform: translate(-22%, -835%); /* 235*/
+    transform: translate(-22%, -935%); /* 235*/
     background-color: rgba(0, 0, 0, 0.726);
     padding: 40px; /* Increased padding */
     color: white;
