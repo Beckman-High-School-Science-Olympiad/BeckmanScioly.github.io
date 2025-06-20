@@ -2,92 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Beckman High Science Olympiad</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background-image: url('mainBackground.png');
-      background-size: cover;
-      background-position: center;
-    }
-
-    .navbar {
-      background: rgba(0,0,0,0.7);
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 10;
-    }
-
-    .navbar img.logo {
-      height: 60px;
-      margin-left: 10px;
-    }
-
-    .navbar ul {
-      list-style: none;
-      display: flex;
-      margin-right: 20px;
-    }
-
-    .navbar ul li {
-      margin: 0 10px;
-    }
-
-    .navbar ul li a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .content {
-      padding: 120px 40px 40px;
-      display: none;
-    }
-
-    .content.visible {
-      display: block;
-    }
-
-    h1, h2 {
-      color: white;
-      text-shadow: 1px 1px black;
-    }
-
-    button {
-      margin: 10px;
-      padding: 10px 20px;
-      font-size: 16px;
-    }
-
-    .gallery {
-      margin: 5px;
-      border: 1px solid #ccc;
-      float: left;
-      width: 200px;
-    }
-
-    .gallery img {
-      width: 100%;
-      height: auto;
-    }
-
-    .desc {
-      padding: 15px;
-      text-align: center;
-      background: white;
-    }
-  </style>
 </head>
-
 <body>
   <div class="navbar">
     <img src="logo.png" class="logo" />
@@ -98,6 +16,7 @@
       <li><a href="#" onclick="showSection('calendar')">Calendar</a></li>
       <li><a href="#" onclick="showSection('gallery')">Gallery</a></li>
       <li><a href="#" onclick="showSection('tryouts')">Tryouts</a></li>
+      <li><a href="#" onclick="showSection('contact')">Contact</a></li>
     </ul>
   </div>
 
@@ -108,74 +27,52 @@
 
   <div id="about" class="content">
     <h2>About Us</h2>
-    <p>
-      Science Olympiad is a nationwide competition where students compete in
-      various STEM events. At Beckman, our mission is to foster an enthusiastic
-      learning environment for hands-on science and engineering exploration.
-    </p>
+    <p>At Beckman Science Olympiad, our goal is to foster a deep passion for science, technology, engineering, and mathematics (STEM) within our school community. We strive to cultivate critical thinking, teamwork, and innovation through rigorous academic challenges and hands-on competitions. By providing a platform for students to explore their scientific interests, we aim to inspire the next generation of thinkers, creators, and leaders who will shape the future.</p>
   </div>
 
   <div id="team" class="content">
-    <h2>Meet the 2024-2025 Board</h2>
-    <p>
-      Miles Huang – President<br />
-      Bethany Cheung – Vice President<br />
-      Carson Gan – Secretary<br />
-      Maya Savani – Treasurer<br />
-      Kelly Lin – Build Captain<br />
-      Adith Alagiri – Build Lieutenant
-    </p>
+    <h2>Meet the 2025–2026 Board</h2>
+    <ul class="board-list">
+      <li><strong>President:</strong> Bethany Cheung</li>
+      <li><strong>Vice President:</strong> Carson Gan</li>
+      <li><strong>Build Captain:</strong> Adith Alagiri</li>
+      <li><strong>Build Lieutenant:</strong> Alexis Nugraha</li>
+      <li><strong>Secretary:</strong> Advaita Venkatesh</li>
+      <li><strong>Treasurer:</strong> Reese Han</li>
+    </ul>
   </div>
 
   <div id="calendar" class="content">
-    <h2>2024-2025 Tournament Schedule</h2>
-    <ul>
-      <li>Southern California State Tournament @ CalTech – 4/12/25</li>
-      <li>OC Regionals @ UC Irvine – 3/26/25</li>
-      <li>Golden Gate Invitational @ UC Berkeley – 2/22/25</li>
-      <li>Highlander Invitational @ UC Riverside – 2/15/25</li>
-      <li>Glen A. Wilson Invitational @ GWHS – 2/8/25</li>
-      <li>BirdSO @ USC – 1/18/25</li>
-      <li>Great Oak Invitational – 12/14/24</li>
-      <li>Stuyvesant Invitational @ Beckman – 11/9/24</li>
-    </ul>
+    <h2>2025–2026 Tournament Schedule</h2>
+    <p><em>TBD — Check back for the full tournament timeline!</em></p>
   </div>
 
   <div id="gallery" class="content">
     <h2>Gallery</h2>
-    <div class="gallery">
-      <img src="Titration.jpg" alt="Chemistry Lab" />
-      <div class="desc">Titration Practice with Mr. Beilin</div>
-    </div>
-    <div class="gallery">
-      <img src="Trees.jpg" alt="Field Trip" />
-      <div class="desc">Forestry Team @ Huntington Gardens</div>
-    </div>
-    <div class="gallery">
-      <img src="Calmer.jpg" alt="Engineering" />
-      <div class="desc">Electrochemistry Workshop with Dr. Calmer</div>
-    </div>
-    <div class="gallery">
-      <img src="Bridge.png" alt="Bridge Building" />
-      <div class="desc">Balsa Wood Bridge Event</div>
+    <div class="gallery-wrapper">
+      <div class="gallery-item"><img src="Titration.jpg" alt=""><div class="desc">Titration Practice with Mr. Beilin</div></div>
+      <div class="gallery-item"><img src="Trees.jpg" alt=""><div class="desc">Forestry Team @ Huntington Gardens</div></div>
+      <div class="gallery-item"><img src="Calmer.jpg" alt=""><div class="desc">Electrochemistry Workshop with Dr. Calmer</div></div>
+      <div class="gallery-item"><img src="Bridge.png" alt=""><div class="desc">Balsa Wood Bridge Event</div></div>
     </div>
   </div>
 
   <div id="tryouts" class="content">
     <h2>Tryouts</h2>
-    <p>
-      Tryouts for the 2024-2025 team will open mid-October! Please use the
-      link below to sign up once available.
-    </p>
-    <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSewlTztYghx6FdbDDdIhrqmpe5sLDRTm78ROTX4g5c4zzs0Ww/viewform', '_blank')">
-      Tryout Form
-    </button>
+    <p>Science Olympiad is a great opportunity to meet and work with like-minded students, and we hope you all consider trying out!</p>
+    <p>Information regarding 2025–26 tryouts can be found below. Please do not hesitate to contact us if you have any questions about the team.</p>
+    <button onclick="window.open('https://docs.google.com/document/d/11dQRlaKVtQmX1tUYnyypb_9M1lsd8VmYYQzQ_XUm0rI/edit?tab=t.0', '_blank')">View Tryout Info</button>
+  </div>
+
+  <div id="contact" class="content">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> <a href="mailto:beckmanhsscioly@gmail.com">beckmanhsscioly@gmail.com</a></p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/beckmanscioly" target="_blank">@beckmanscioly</a></p>
   </div>
 
   <script>
     function showSection(id) {
-      const sections = document.querySelectorAll('.content');
-      sections.forEach(section => section.classList.remove('visible'));
+      document.querySelectorAll('.content').forEach(s => s.classList.remove('visible'));
       document.getElementById(id).classList.add('visible');
     }
   </script>
