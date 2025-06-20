@@ -1,0 +1,145 @@
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('mainBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Navbar styling */
+.navbar {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #FFD700;
+}
+
+.navbar .logo {
+    height: 60px;
+}
+
+/* Content sections */
+.content {
+    padding: 120px 40px 40px;
+    transition: opacity 0.5s ease;
+    color: white;
+}
+
+.content.hidden {
+    display: none;
+}
+
+.content.visible {
+    display: block;
+}
+
+/* Buttons */
+button {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFD700;
+    color: black;
+}
+
+/* Sections */
+.about-section,
+.president-section,
+.member-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-section h2,
+.president-section h2,
+.member-section h2 {
+    color: #FFD700;
+}
+
+/* Gallery */
+.gallery {
+    margin: 15px;
+    border: 2px solid #ddd;
+    float: left;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.desc {
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+}
+
+/* Clear floats */
+.about-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .
