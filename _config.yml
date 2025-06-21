@@ -1,7 +1,7 @@
 title: Beckman Science Olympiad
 description: Official site for the Beckman Science Olympiad team
 baseurl: ""
-url: "https://<your-username>.github.io"
+url: "https://beckman-high-school-science-olympiad.github.io"
 
 remote_theme: mmistakes/minimal-mistakes
 plugins:
