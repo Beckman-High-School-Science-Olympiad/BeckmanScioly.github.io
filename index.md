@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Home
+layout: single
+title: "Home"
+permalink: /about/
 ---
 
 ## Welcome to Beckman Science Olympiad
