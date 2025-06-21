@@ -1,8 +1,9 @@
 ---
-layout: single
-title: "Contact"
-permalink: /contact/
+layout: default
+title: Contact
 ---
 
-- **Email**: beckmanhsscioly@gmail.com  
-- **Instagram**: [@beckmanscioly](https://instagram.com/beckmanscioly)
+# Contact Us
+
+- 📧 Email: beckmanhsscioly@gmail.com  
+- 📸 Instagram: [@beckmanscioly](https://instagram.com/beckmanscioly)
