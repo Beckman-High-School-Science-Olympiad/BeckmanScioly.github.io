@@ -1,13 +1,7 @@
 title: Beckman Science Olympiad
-description: Official site for the Beckman Science Olympiad team
-baseurl: ""
+description: Official site for the Beckman High School Science Olympiad team
+baseurl: "" 
 url: "https://beckman-high-school-science-olympiad.github.io"
+theme: jekyll-theme-cayman
 
-remote_theme: mmistakes/minimal-mistakes
-plugins:
-  - jekyll-remote-theme
-
-markdown: kramdown
-
-minima:
-  skin: custom
+# GitHub Pages compatible themes: https://pages.github.com/themes/
