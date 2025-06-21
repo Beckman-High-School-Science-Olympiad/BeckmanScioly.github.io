@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Team
+layout: single
+title: "Team"
+permalink: /about/
 ---
+
 
 ## Meet the 2025–2026 Board
 
