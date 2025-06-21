@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Tryouts
+layout: single
+title: "Tryouts"
+permalink: /about/
 ---
+
 
 ## Tryouts for 2025–2026
 
