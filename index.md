@@ -1,12 +1,16 @@
 ---
-layout: home
-title: "Welcome"
-permalink: /
+layout: default
+title: Home
 ---
 
-Welcome to Beckman Science Olympiad!
+# Welcome to Beckman Science Olympiad
 
-<div class="gallery">
-  <img src="/assets/images/placeholder.jpg" alt="Team at competition">
-  <img src="/assets/images/placeholder2.jpg" alt="Building a device">
-</div>
+We are a nationally ranked Science Olympiad team fostering innovation, curiosity, and STEM excellence.
+
+![Team Image](/assets/images/team-placeholder.jpg)
+
+## Explore
+- [About Us](about.md)
+- [Meet the Team](team.md)
+- [Tryouts](tryouts.md)
+- [Contact](contact.md)
