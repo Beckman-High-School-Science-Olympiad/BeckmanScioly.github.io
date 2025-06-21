@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Contact
+layout: single
+title: "Contact"
+permalink: /about/
 ---
+
 
 ## Contact Us
 
